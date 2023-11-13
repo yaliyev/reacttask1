@@ -1,10 +1,23 @@
-
+import Header from './components/Header/header';
+import Slider from './components/Main/slider';
+import About from './components/Main/about';
+import Contact from './components/Main/contact';
+import Footer from './components/Footer/footer';
 function App() {
   
 
   return (
     <>
-      <h1>Hello Vite</h1>
+      <Header />
+
+      <main>
+        <Slider />
+        <About />
+        <Contact />
+
+      </main>
+
+      <Footer />
     </>
   )
 }
